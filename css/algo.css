@@ -43,12 +43,13 @@ h3,h4{
 
 }
 input.problema.input{
-    padding: 1rem;
+    padding: 100rem;
     color: rgba(0,0,0,0.57);
     background: none;
     border: none;
-    width: 100%;
+    width: 500%;
     border-bottom: 2px solid rgb(135, 255, 203);
+    padding-bottom: 2px;
 
 }
 button.problema-button{
@@ -71,3 +72,4 @@ button.problema-button{
     margin-top: 1rem;
 
 }
+

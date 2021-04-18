@@ -5,36 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Problema 3</title>
-    <link rel="stylesheet" href="/css/algo.css">
+    <link rel="stylesheet" href="./css/algo.css">
+    <script src="./JS/algori.js"></script>
 </head>
 <body>
     <div class="container">
-        <div class= "problema-container"></div>
-        <h3 class="problema-title">Problema 3 </h3>
-        <H4>Dada una lista de palabras encontrar la palabra que mas numero de caracteres unicos tengas
+        <div class="problema-container">
+            <h3 class="problema-title">Problema 3</h3>
+            <h4>
+            Dada una lista de palabras, encontrar la palabra que más número de caracteres unicos tenga.
             <br>
-            Ejemplo: CASA = 3 (c,a,s) PERRO = 4 (p,e,r,o)
+            Ejemplo: Casa=3(c,a,s) Perro=4(p,e,r,o)
             <br>
-            considerando que solamente el alfabetos de la A-Z en mayusculas.
-            las palabras ingresadas deberan estar separadas por una coma, no se aceptan espacios
-        </H4>
-        <div class="problema-content">
-            <input type="text" class="problema-input"
-            placeholder="Ingresa las palabras separadas por una coma "
-            id="p3-input">
-            <button type="button" class="problema-button" style="margin-top: 4 rem;" onclick="">Contar palabra</button>
-            <pre class="problema-output"
-            id="p3-output">Espere por favor</pre>
+            Considera solamente un alfabeto de la A-Z en mayusculas
+            <br>
+            Las palabras ingresadas deberan estar separadas por una coma, no se aceptan espacios.
+            </h4>
+
+            <div class="problema-content">
+                <input type="text" class="problema-input" placeholder="Ingresa las palabras separadas por una coma" onkeypress="return validarn(event)" id="p3-input">
+                <button type="button" class="problema-button" style="margin-top:1rem;" onclick="problema3()">Contar palabras</button>
+                <pre class="problema-output" id="p3-output">Esperando respuesta...</pre>
+            </div>
         </div>
-
-
-
-
-
-
     </div>
-     
- 
-    
 </body>
 </html>
